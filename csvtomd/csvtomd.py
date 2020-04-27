@@ -80,7 +80,7 @@ def add_dividers(row, divider, padding):
     return div.join(row)
 
 
-def md_table(table, *, padding=DEFAULT_PADDING, divider='|', header_div='-'):
+def md_table(table, padding=DEFAULT_PADDING, divider='|', header_div='-'):
     """
     Convert a 2D array of items into a Markdown table.
 
